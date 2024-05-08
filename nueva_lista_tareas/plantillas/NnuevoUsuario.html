@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./imagenes/CxC.jpg">
+    <title>CxC WorkList</title>
+</head>
+
+<body>
+    <nav>
+        <div class="fondo_nav">
+            <div class="logo">
+                <img src="./imagenes/CxC.jpg" alt="">
+            </div>
+        </div>
+    </nav>
+    <main>
+        <form action="/usuarios/crear" method="post" class="papel" style="height: auto; width: 800px;" id="nuevoUsuario_form">
+            <div class="cabecerra">
+                Nueva sesion
+            </div>
+            <div style="display: flexbox; text-align: center;">
+                <button type="submit" class="guardar" style="margin-left: 600px;" id="guardar"  >
+                    Guardar
+                </button>
+            </div>
+            <div class="nom_tarrea">                
+                <label for="usuatio">Nombre de Usuario: </label><input name="usuario" type="text" placeholder="Cree su nombre de usuario" id="usuario">
+            </div>
+            <div class="nom_tarrea">                
+                <label for="contrasena">Contraseña: </label><input name="contrasena" type="password" placeholder="Cree su contraseña" id="contrasena">
+            </div>
+        </form> 
+    </main>
+    <footer>
+        <div class="pie">
+            <p>
+
+                <img class="apps" src="./imagenes/wtzap.jpg" alt="">
+                : 555-69-23-26
+                <img class="apps" src="./imagenes/ig.jpg" alt="">
+                : cxc
+                <img class="apps" src="./imagenes/mail.jpg" alt="">
+                : cxc@gmail.com
+
+            </p>
+            <p>
+                &copy; Gracias por su visita
+            </p>
+        </div>
+    </footer>
+    <script src="./js/nuevo_usuario.js"></script>
+
+</body>
+
+</html>

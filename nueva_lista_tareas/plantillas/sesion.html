@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./imagenes/CxC.jpg">
+    <title>CxC WorkList</title>
+</head>
+
+<body>
+    <nav>
+        <div class="fondo_nav">
+            <div class="logo">
+                <img src="./imagenes/CxC.jpg" alt="">
+            </div>
+            <div class="submenu_usuario_inicio">
+                <ul class="usuario">
+                    <img class="out_usuario" src="./imagenes/perfil 1.jpg" alt="">
+                    <li>
+                        <button class="cerrar_sesion"
+                            style="border-radius: 150px;background-color: gold; border: none; margin-top: 10px;"
+                            id="cerrar_sesion">
+
+                            <img class="in_usuario" src="./imagenes/R (2).png" alt=""> Cerrar sesion
+
+                        </button>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <form class="papel" style="height: 550px; margin: 700px; margin-bottom: 100px;margin-top: 50px;">
+            <div style="display: flexbox; text-align: center;">
+                <img class="perfil" src="./imagenes/perfil 1.jpg" alt="">
+            </div>
+            <div class="nom_tarrea">
+                <label for="nombre">Usuario: </label><input type="text" placeholder="Introduzca su usuario"
+                    id="usuario">
+            </div>
+            <div class="nom_tarrea" style="display: inline-block;">
+                <label for="nombre">Contraseña: </label><input type="password" placeholder="Introduzca su contraseña"
+                    id="contrasena">
+                <div id="respuesta" style="display: none;">
+                    Usuario o Contraseña incorrecta
+                </div>
+                <div style="display: flexbox;text-align: center;">
+                    <button id="iniciar" class="guardar" type="submit" style="margin-left: 0px; margin-bottom: 10px;">
+                        <a href="pagina_inicial.html">Iniciar</a>
+                    </button>
+                </div>
+            </div>
+            <div style="display: flexbox; text-align: center; margin-top: 10px; font-size: large; ">
+                <a href="./NnuevoUsuario.html" style="text-decoration: none; color: grey; ">Crear cuenta</a>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="pie">
+            <p>
+
+                <img class="apps" src="./imagenes/wtzap.jpg" alt="">
+                : 555-69-23-26
+                <img class="apps" src="./imagenes/ig.jpg" alt="">
+                : cxc
+                <img class="apps" src="./imagenes/mail.jpg" alt="">
+                : cxc@gmail.com
+
+            </p>
+            <p>
+                &copy; Gracias por su visita
+            </p>
+        </div>
+    </footer>
+    <script src="./js/sesion.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="./imagenes/CxC.jpg">
+    <title>CxC WorkList</title>
+</head>
+
+<body>
+    <nav>
+        <div class="fondo_nav">
+            <div class="logo">
+                <img src="./imagenes/CxC.jpg" alt="">
+            </div>
+            <div class="submenu_usuario" >
+                <ul class="usuario" style="width: 80px;">
+                    <img class="out_usuario" src="./imagenes/perfil 1.jpg" alt="" >
+                    <li>
+                        <button class="cerrar_sesion" style="border-radius: 150px;background-color: gold; border: none; margin-top: 10px;"  id="cerrar_sesion">
+                               <img class="in_usuario" src="./imagenes/R (2).png" alt=""> Cerrar sesion
+                           </button>
+   
+                    </li>
+                    <li>
+                        <a href="./usuarios.html">
+                            <img class="in_usuario" src="./imagenes/20240416_053004.jpg" alt=""> Perfil
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <ul class="papel" style="height: auto; display: inline-block; width: auto;">
+            <div class="cabecerra" >
+                TAREAS GUARDADAS
+            </div>
+            <div style="display: flex;justify-content: right; justify-content: space-around;margin-bottom: 20px; margin-top: 20px;">
+                <button  style="border: none;" id="nuevaLista">
+                    <a class="botones_gt" href="./pagina_inicial.html">Nueva Lista</a>
+                </button>
+                <button  style="border: none;" id="nuevaLista">
+                    <a class="botones_gt" href="./actualizar_tarea.html">Actualizar</a>
+                </button>                <button  style="border: none;" id="nuevaLista">
+                    <a class="botones_gt" href="./eliminar_tarea.html">Borra</a>
+                </button>
+            </div>
+            <section >
+                <div style="font-size: x-large; margin-top: 10px;">
+                    <table id="tabla">
+                        <tr class="tabla_cabecera">
+                            <th>id</th>
+                            <th>Nombres De la tarea  </th>
+                            <th>Descripcion  </th>
+                            <th>Hora  </th>
+                            <th>Fecha  </th>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+        </ul>
+        <div class="submenu">
+            <div id="archivo" class="lista" >
+                <img src="./imagenes/Captura de pantalla 2024-04-14 220422.png" alt="" style="border-radius: 0px;">
+                <a class="archivo_text" href="./pagina_inicial.html">Lista</a>
+            </div>
+            <div id="archivo" class="ayuda"style="margin-top: 180px;">
+                <img src="./imagenes/R.png" alt="" style="margin-top: 11px">
+                <a class="archivo_text" href="./ayuda.html">Ayuda</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pie">
+            <p>
+
+                <img class="apps" src="./imagenes/wtzap.jpg" alt="">
+                : 555-69-23-26
+                <img class="apps" src="./imagenes/ig.jpg" alt="">
+                : cxc
+                <img class="apps" src="./imagenes/mail.jpg" alt="">
+                : cxc@gmail.com
+
+            </p>
+            <p>
+                &copy; Gracias por su visita
+            </p>
+        </div>
+    </footer>
+    <script src="./js/tarreas_guardadas.js"></script>
+
+</body>
+
+</html>
